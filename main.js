@@ -85,6 +85,9 @@ function applyCreatorConfig() {
   const studioLogo = document.getElementById("studioLogoText");
   if (studioLogo) studioLogo.textContent = CONFIG.studioName;
 
+  const footerStudio = document.getElementById("footerStudioName");
+  if (footerStudio) footerStudio.textContent = CONFIG.studioName;
+
   // WhatsApp URLs
   const encodedMsg = encodeURIComponent(CONFIG.whatsappDefaultMessage);
   const waUrl = `https://wa.me/${CONFIG.whatsappPhone}?text=${encodedMsg}`;
