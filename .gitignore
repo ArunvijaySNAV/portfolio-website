@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Log files
+*.log
+
+# Scratch and temp files
+*.tmp
+*.bak
